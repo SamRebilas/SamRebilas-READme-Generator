@@ -1,10 +1,17 @@
 # 
-  hello world
-  nothing
-  install
-  follow instructions
+  # Project Title
+  hello hi
+  ### Installation
+  this is how
+  ### Usage
+  like this
+  ### License
   yes
-  description
-  do it
-  SamRebilas
-  sam.rebilas@gmail.com
+  ### Contributions
+  what to do
+  ### Test
+  this is how
+  ### GitHub User Name
+  user1
+  ### Email
+  emailemail
