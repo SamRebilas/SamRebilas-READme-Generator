@@ -1,23 +1,23 @@
 # 
   # Project Title
-  1
+  ReadMe Generator
 
  
   # Project Description
-  1
+  Enter a Description here
   ## Installation
-  1
+  Enter Installation Instructions here
   ## Usage
-  1
+  Enter Usage Instructions here
   ## License
-  None
-  undefined
+  Apache license v2.0
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Contributions
-  1
+  Contribution description here
   ## Test
-  1
+  How to run the tests here
   ## GitHub User Name
-  1
-  https://github.com/1
-  ## Email
-  1
+  SamRebilas
+  https://github.com/SamRebilas
+  ## Questions? email me here!
+  sam.rebilas@gmail.com
