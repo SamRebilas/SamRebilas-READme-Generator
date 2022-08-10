@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer')
 const fs = require('fs')
+const inquirer = require('inquirer')
 const generateMarkdown = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input
 const questions = [  
@@ -42,12 +42,29 @@ const questions = [
     type: "input",
     name: "testing",
     message: "Enter instructions for running a test."
+},
+{
+    type: "input",
+    name: 'github',
+    message: 'enter your GitHub name:'
+},
+{
+    type:"input",
+    name: "email",
+    message: 'Enter your email'
 }
 ]
 ;
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile("./Dist/README", data, fileName, (err) =>{
+        if(err){
+            throw err
+        }
+        console.log("Congratulations! Your README file has been created and added to the Dist folder")
+    })
+}
   
 
 // TODO: Create a function to initialize app
@@ -56,6 +73,7 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+init().then((data)=> generateMarkdown(data))
+.then((markdown)=> writeToFile(markdown));
 
 
