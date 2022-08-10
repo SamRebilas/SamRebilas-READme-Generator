@@ -15,33 +15,33 @@ const questions = [
 {
     type: "input",
     name: "projectDescription",
-    message: "Enter a description of your project."
+    message: "Enter a description of your project:"
 }, 
 {
     type: "input",
     name: "projectInstall",
-    message: "Enter installation instruction for your project."
+    message: "Enter installation instruction for your project:"
 },
 {
     type: "input",
     name: "usage",
-    message: "Enter usage instructions for your project."
+    message: "Enter usage instructions for your project:"
 },
 {
     type: "list",
     name: "license",
     message: "What license will you use?",
-    choices: ['yes', 'no']
+    choices: ['Apache license v2.0', 'GNU v3.0', 'MIT', 'None']
 },
 {
     type: "input",
     name: "projectContribution",
-    message: "Enter a description for contributions."
+    message: "Enter a description for contributions:"
 },
 {
     type: "input",
     name: "testing",
-    message: "Enter instructions for running a test."
+    message: "Enter instructions for running a test:"
 },
 {
     type: "input",
@@ -51,7 +51,7 @@ const questions = [
 {
     type:"input",
     name: "email",
-    message: 'Enter your email'
+    message: 'Enter your email:'
 },
 ]
 ;
