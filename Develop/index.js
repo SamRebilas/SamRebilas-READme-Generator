@@ -52,13 +52,13 @@ const questions = [
     type:"input",
     name: "email",
     message: 'Enter your email'
-}
+},
 ]
 ;
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile("./Dist/README", data, fileName, (err) =>{
+function writeToFile( data) {
+    fs.writeFile("./Dist/README.md", data, (err) =>{
         if(err){
             throw err
         }
